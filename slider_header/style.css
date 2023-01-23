@@ -1,0 +1,42 @@
+.slide .title{
+    font-family: sans-serif;
+    margin: 0px 15vw;
+    width: 70vw;
+    font-size: 50px;
+    color: white;
+}
+.slide{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    overflow: hidden;
+}
+#left-side{
+    background-color: black;
+    z-index: 2;
+}
+#right-side{
+    background-color: lightpink;
+    z-index: 2s;
+}
+.slide .fancy{
+    color: white;
+    font-family: "Lobster",cursive;
+    font-size: 70px;
+    line-height: 0.8rem;
+    
+}
+#left-side .fancy{
+    color: white;
+}
+#right-side .fancy{
+    color: purple;
+}
+#left-side .title{
+    color: orange;
+}
+#right-side .title{
+    color: black;
+}
